@@ -48,4 +48,4 @@ print(f"MAE: ${mae:,.0f}")
 # ---- 6. save ------------------------------------------------------------
 Path("out").mkdir(exist_ok=True)
 joblib.dump(model, "out/model.joblib")
-print("saved out/model.joblib")
+print("saved out/model.joblib edit")
